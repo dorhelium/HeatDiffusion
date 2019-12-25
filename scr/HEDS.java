@@ -1,9 +1,3 @@
-//260761484
-//Doreen He
-//Doreen He
-
-package comp557.a3;
-
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.TreeMap;
@@ -39,23 +33,9 @@ public class HEDS {
     public HEDS( PolygonSoup soup ){
         vertices = soup.vertexList;
         
-       
-      
-        
         
         for ( int[] f : soup.faceList ){        
-        	// TODO: 2 Build the half edge data structure from the polygon soup, triangulating non-triangular faces
-        	/*
-        	 * Create the half edge and face objects to make up your half edge data structure. 
-        	 * See the createHalfEdge method in HEDS which will help you create twin pointers 
-        	 * in your half edge. Triangulate any faces in the soup which do not have 3 sides. 
-        	 * Take care to ensure that you set all the necessary pointers, 
-        	 * and test your half edge data structure by walking around the mesh. 
-        	 * Set "draw test half edge" in the controls to true, 
-        	 * and then use space, n, and w keys on the keyboard. 
-        	 * You may need to rotate your mesh or view in wireframe to see the half edge! 
-        	 */
-        	
+ 
         	// triangulate faces
         	ArrayList<int[]> subfaces = new ArrayList<int[]> ();
         	
@@ -291,53 +271,6 @@ public class HEDS {
     		}while (!loop.equals(v.he));
     		
     		v.divX = sum / 2.0;
-    		//System.out.println(v.divX);
-    		
-    		
-    		
-    		
-    		
-    		
-    		
-    		
-    		
-    		
-    		
-    		
-    		
-    		
-    		/*
-    		
-    		v.divX = 0;
-    		HalfEdge start = v.he.twin;
-    		HalfEdge loop = v.he.twin;
-    		double sum = 0;
-    		do {
-    		
-    		Vector3d v1 = new Vector3d (loop.head.p.x - v.p.x,
-    				loop.head.p.y - v.p.y,
-    				loop.head.p.z - v.p.z);
-    		Vector3d v2 =  new Vector3d (loop.next.next.twin.head.p.x - v.p.x,
-    				loop.next.next.twin.head.p.y - v.p.y,
-    				loop.next.next.twin.head.p.z - v.p.z
-    				);
-    		
-    		Vector3d grad = loop.leftFace.gradu;
-    		double dot1 = v1.dot(grad);
-    		double dot2 = v2.dot(grad);
-    		
-    		double cot_theta1 = 1.0 / Math.tan(angleWithNext (loop.next));
-    		double cot_theta2 = 1.0 / Math.tan(angleWithNext (loop));
-    		
-    		sum = sum + (cot_theta1 * dot1) + (cot_theta2 * dot2);
-    		loop = loop.next.next.twin;
-    		} while (!loop.equals(start));
-    		
-    		
-    		v.divX = sum / 2.0;
-    		System.out.println(v.divX);
-    		*/
-    		
     		
     	}
     	
