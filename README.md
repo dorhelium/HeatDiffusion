@@ -7,6 +7,7 @@ Download the code and add the jogl, vecmath, and mintools jars to the root level
 The utility files came from the 2.3.2 release folder (https://jogamp.org/wiki/index.php/Release_2.3.2) on the jogamp site.  The two relevant files are 7unzipped and attached here, so you don't need to install 7zip if you don't have it).  The fat jar contains all the necessary dlls and shared objects to work on all common platforms.
 
 ## Contents
+ <img src="/demo/heatdemo.gif">
 ### MeshProcessingApp
 Contains the main function and creates the view.
 ### HalfEdge 
@@ -24,9 +25,5 @@ This class sets up native IO vertex and index buffers for drawing, loads and lin
 ### MeshDrawPicking 
 This class sets up a picking GLSL program, and likewise sets up buffers to draw every triangle in a unique colour to allow selection of mesh faces. While vertex picking is needed, the barycentric coordinates of a triangle allows for the closest vertex to the click point to be selected.
 
-## Contents
-<p float="center">
-    <img src="/demo/demo2.png" width="350" height="350">
-    <img src="/demo/demo1.png" width="350" height="350">
-</p>
+
     
