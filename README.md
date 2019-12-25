@@ -8,6 +8,7 @@ The utility files came from the 2.3.2 release folder (https://jogamp.org/wiki/in
 
 ## Contents
  <img src="/demo/heatdemo.gif">
+ 
 ### MeshProcessingApp
 Contains the main function and creates the view.
 ### HalfEdge 
