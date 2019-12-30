@@ -5,7 +5,7 @@ This project is based on an ACM Transactions on Graphics article by Crane et al.
 ## Instruction
 The project uses Java and the JOGL openhl bindings.
 Download the code and add the jogl, vecmath, and mintools jars to the root level of the project folder.
-The utility files came from the 2.3.2 release folder (https://jogamp.org/wiki/index.php/Release_2.3.2) on the jogamp site.  The two relevant files are 7unzipped and attached [here](https://github.com/dorhelium/HeatDiffusion/tree/master/utilities), so you don't need to install 7zip if you don't have it).  The fat jar contains all the necessary dlls and shared objects to work on all common platforms.
+The utility files came from the 2.3.2 release folder (https://jogamp.org/wiki/index.php/Release_2.3.2) on the jogamp site. The fat jar contains all the necessary dlls and shared objects to work on all common platforms.
 
 ## Contents
 
