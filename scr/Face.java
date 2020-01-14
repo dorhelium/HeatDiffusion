@@ -78,7 +78,7 @@ public class Face {
      *  scaled by s 
      */
     public void drawGradu( GL2 gl, double h, double s ) {
-        // TODO: 7 Write code to draw the line as described in the javadoc above.
+       
     	// use immediate mode (i.e., glBegin and glEnd with GL_LINES, and a call to glVertex
     	// to specfiy each end point.  Note that the line colour and light disabling is done
     	// by the calling function prior to calling this method for all faces.
