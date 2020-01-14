@@ -1,7 +1,4 @@
-//260761484
-//Doreen He
 
-package comp557.a3;
 
 import javax.vecmath.Point3d;
 import javax.vecmath.Vector3d;
