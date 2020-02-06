@@ -21,7 +21,7 @@ import mintools.swing.VerticalFlowPanel;
 
 /**
  * Class for organizing GLSL programs and mesh data for drawing
- * @author kry
+
  */
 public class MeshDrawHeatGeo {
 
@@ -53,7 +53,7 @@ public class MeshDrawHeatGeo {
 	/** GLSL program */
 	private ShaderState state = new ShaderState();
 	
-	// TODO: 4 Add and use a uniform for shininess as per the assignment objectives
+	// Add and use a uniform for shininess as per the assignment objectives
 	
 	//you must define a uniform for specular shininess 
 	//and add code on the java side to get the ID 
