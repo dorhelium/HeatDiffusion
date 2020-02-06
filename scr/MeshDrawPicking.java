@@ -1,6 +1,4 @@
-//260761484
-//Doreen He
-//Doreen He
+
 
 package comp557.a3;
 
@@ -23,7 +21,7 @@ import com.jogamp.opengl.util.glsl.ShaderState;
 
 /**
  * Class for organizing GLSL programs and mesh data for picking triangles and 
- * likewise vertices based on barycentric coordinates (unused in this assignment).
+ * likewise vertices based on barycentric coordinates.
  * 
  * Picking is done by drawing every triangle with a different colour, and then checking
  * the colour at the selected location in the frame buffer (i.e., where the mouse was clicked).
@@ -35,7 +33,6 @@ import com.jogamp.opengl.util.glsl.ShaderState;
  * Note the intial face selection requires the background to be drawn white (i.e., in a colour 
  * different than the IDs of the triangles).
  * 
- * @author kry
  */
 public class MeshDrawPicking {
 	
