@@ -1,8 +1,4 @@
-//260761484
-//Doreen He
-//Doreen He
 
-package comp557.a3;
 
 import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
