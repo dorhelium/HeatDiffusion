@@ -1,9 +1,4 @@
-//260761484
-//Doreen He
-//Doreen He
 
-
-package comp557.a3;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -71,7 +66,7 @@ public class PolygonSoup {
             }
             System.out.println( soupStatistics );
             
-            // TODO: 1 compute a bounding box and scale and center the geometry
+            //  compute a bounding box and scale and center the geometry
             /*
             Compute an axis aligned bounding box for the loaded mesh vertices, 
             and then modify the vertex positions so that they bounding box is centered at the origin 
