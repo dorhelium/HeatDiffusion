@@ -1,6 +1,5 @@
 
 
-package comp557.a3;
 
 import java.awt.Point;
 import java.nio.ByteBuffer;
