@@ -1,9 +1,4 @@
-//260761484
-//Doreen He
-//Doreen He
 
-
-package comp557.a3;
 
 import java.awt.Component;
 import java.awt.Dimension;
@@ -33,7 +28,7 @@ import mintools.viewer.Interactor;
 import mintools.viewer.SceneGraphNode;
 
 /**
- * COMP557 - Compute mesh geodesics using the heat method
+ * Compute mesh geodesics using the heat method
  */
 public class MeshProcessingApp implements SceneGraphNode, Interactor {
 
