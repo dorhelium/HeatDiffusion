@@ -1,7 +1,4 @@
-//260761484
-//Doreen He
 
-package comp557.a3;
 
 import java.util.ArrayList;
 
